@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h1>{{ flatpage.title }}</h1>
+    А тут страница contact_page<hr>
+    <h3>Наши контакты:</h3>
+{{ flatpage.content }}
+<br>
+<font size="20" color="BA55D3" face="Moniqa">  {{ flatpage.content }} </font>
+{% endblock content %}
